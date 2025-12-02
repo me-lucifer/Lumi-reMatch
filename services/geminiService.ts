@@ -3,6 +3,7 @@ import { MOCK_PHOTOGRAPHERS } from '../constants';
 import { MoodboardAnalysis } from '../types';
 
 // Initialize the API client
+// The API key must be obtained exclusively from the environment variable process.env.API_KEY.
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 /**
