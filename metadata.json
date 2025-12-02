@@ -1,0 +1,8 @@
+{
+  "name": "Lumière Match",
+  "description": "An AI-powered marketplace connecting couples with wedding photographers by matching aesthetic styles through image analysis.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
