@@ -474,7 +474,7 @@ export default function App() {
       {view !== AppView.HOME && !analysisState.isAnalyzing && (
         <NavBar 
           title={view === AppView.RESULTS ? 'Your Match' : view === AppView.PROFILE ? 'Portfolio' : 'Lumière'}
-          showBack={view !== AppView.HOME} 
+          showBack={true}
           onBack={() => {
              if (view === AppView.PROFILE) setView(AppView.RESULTS);
              else if (view === AppView.RESULTS) setView(AppView.UPLOAD);
